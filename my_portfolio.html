@@ -3,7 +3,7 @@
   <head>
     <!--=============== basic  ===============-->
     <meta charset="UTF-8" />
-    <title>Solonick - Creative Responsive Personal Portfolio</title>
+    <title>Alan Scott Portfolio</title>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
@@ -32,18 +32,18 @@
         <!-- Content-->
         <div class="content">
           <div class="single-page-decor"></div>
-          <div class="single-page-fixed-row">
-            <div class="scroll-down-wrap">
-              <div class="mousey">
-                <div class="scroller"></div>
-              </div>
-              <span>Scroll Down</span>
+            <div class="single-page-fixed-row">
+                <div class="scroll-down-wrap">
+                    <div class="mousey">
+                        <div class="scroller"></div>
+                    </div>
+                    <span>Scroll Down</span>
+                </div>
             </div>
-          </div>
           <!-- section-->
           <section
             class="parallax-section dark-bg sec-half parallax-sec-half-right"
-            data-scrollax-parent="true"
+            data-scrollax-parent="true" id = "home"
           >
             <div
               class="bg par-elem"
@@ -54,7 +54,7 @@
             <div class="pattern-bg"></div>
             <div class="container">
               <div class="section-title">
-                <h2><span>Alan Scott</span> <br />Front End developer</h2>
+                <h2><span>Alan Scott</span> <br />Front End developer<br />Blockchain developer</h2>
                 <p>
                   I approach each new project with an eagerness to explore the
                   latest technologies and techniques, knowing that a willingness
@@ -64,14 +64,14 @@
                 </p>
                 <div class="horizonral-subtitle"><span>portfolio</span></div>
               </div>
-              <a href="#sec1" class="custom-scroll-link hero-start-link"
+              <a href="#projects" class="custom-scroll-link hero-start-link"
                 ><span>Let's Start</span> <i class="fal fa-long-arrow-down"></i
               ></a>
             </div>
           </section>
           <!-- section end-->
           <!-- section-->
-          <section data-scrollax-parent="true" id="sec1">
+          <section data-scrollax-parent="true" id="projects">
             <div
               class="section-subtitle"
               data-scrollax="properties: { translateY: '150px' }"
@@ -502,19 +502,103 @@
             <div class="sec-lines"></div>
           </section>
           <!-- section-->
-          <section class="dark-bg2 small-padding order-wrap">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-8">
-                  <h3>Ready To order Your Project ?</h3>
+          <section class="dark-bg2 small-padding order-wrap" id = "skillset">
+                <!-- <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                    <h3>Ready To order Your Project ?</h3>
+                    </div>
+                    <div class="col-md-4">
+                    <a href="#contactme" class="btn flat-btn color-btn"
+                        >Get In Touch</a
+                    >
+                    </div>
                 </div>
-                <div class="col-md-4">
-                  <a href="#contactme" class="btn flat-btn color-btn"
-                    >Get In Touch</a
-                  >
-                </div>
-              </div>
-            </div>
+                </div> -->
+
+                    <div class="skills">
+                        <div class="skills-left">
+                            <div class="progress-bar-container">
+                                <h2>JavaScript/TypeScript</h2>
+                                <div class="progress-bar">
+                                    <span class="percentage jsts"></span>
+                                </div>
+                            </div>
+                     
+                            <div class="progress-bar-container">
+                                <h2>React.js/Next.js</h2>
+                                <div class="progress-bar">
+                                    <span class="percentage reactnext"></span>
+                                </div>
+                            </div>
+
+                            <div class="progress-bar-container">
+                                <h2>Python</h2>
+                                <div class="progress-bar">
+                                    <span class="percentage python"></span>
+                                </div>
+                            </div>
+
+                            <div class="progress-bar-container">
+                                <h2>Ethereum</h2>
+                                <div class="progress-bar">
+                                    <span class="percentage ethe"></span>
+                                </div>
+                            </div>
+
+                            <div class="progress-bar-container">
+                                <h2>Truffle/Hardhat</h2>
+                                <div class="progress-bar">
+                                    <span class="percentage trufflehardhat"></span>
+                                </div>
+                            </div>
+
+                            <div class="progress-bar-container">
+                                <h2>CMS frameworks</h2>
+                                <div class="progress-bar">
+                                    <span class="percentage cmsframeworks"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills-right">
+                            <div class="progress-bar-container">
+                                <h2>Vue.js/Nuxt.js</h2>
+                                <div class="progress-bar">
+                                    <span class="percentage vuenuxt"></span>
+                                </div>
+                            </div>
+
+                            <div class="progress-bar-container">
+                                <h2>Node.js</h2>
+                                <div class="progress-bar">
+                                    <span class="percentage node"></span>
+                                </div>
+                            </div>
+
+                            <div class="progress-bar-container">
+                                <h2>Golang</h2>
+                                <div class="progress-bar">
+                                    <span class="percentage golang"></span>
+                                </div>
+                            </div>
+
+                            <div class="progress-bar-container">
+                                <h2>Web3</h2>
+                                <div class="progress-bar">
+                                    <span class="percentage web3"></span>
+                                </div>
+                            </div>
+
+                            <div class="progress-bar-container">
+                                <h2>Solidity</h2>
+                                <div class="progress-bar">
+                                    <span class="percentage solidity"></span>
+                                </div>
+                            </div>
+                        </div>
+                 
+                    </div>
           </section>
           <!-- section end-->
         </div>
@@ -535,28 +619,64 @@
                   </div>
                   <div class="col-md-5">
                     <div class="footer-header fl-wrap">
-                      <span>01.</span>Last Twitts
+                      <p>Get In Touch</p>
                     </div>
-                    <div class="footer-box fl-wrap">
+                    <!-- <div class="footer-box fl-wrap">
                       <div
                         class="twitter-swiper-container fl-wrap"
                         id="twitts-container"
                       ></div>
                       <a href="#" class="btn float-btn trsp-btn">Follow</a>
+                    </div> -->
+                    <p class = "touch_text">Want to connect with me or collaborate on projects together, 
+                      You can send me a message and I'll reply as soon as I can.. Thank You.</p>
+                    <!-- <div class="footer-contacts fl-wrap">
+                      <ul>
+                        <li>
+                          <i class="fal fa-phone"></i><span>Phone :</span
+                          ><a href="#">+489756412322</a>
+                        </li>
+                        <li>
+                          <i class="fal fa-envelope"></i><span>Email :</span
+                          ><a href="#">alan.scott1119@gmail.com</a>
+                        </li>
+                        <li>
+                          <i class="fal fa-map-marker"></i><span>Address</span
+                          ><a href="#">USA 27TH Brooklyn NY</a>
+                        </li>
+                      </ul>
+                    </div> -->
+                    <!-- footer end -->
+                    <!-- footer-socilal -->
+                    <div class="footer-socilal fl-wrap">
+                      <ul>
+                        <li>
+                          <a href="https://t.me/Midas1119" target="_blank"
+                            ><i class="fab fa-telegram"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a
+                            href="https://github.com/midas-1119"
+                            target="_blank"
+                            ><i class="fab fa-github"></i
+                          ></a>
+                        </li>
+                      </ul>
                     </div>
                   </div>
                   <div class="col-md-5">
-                    <div class="footer-header fl-wrap">
-                      <span>02.</span> Subscribe / Contacts
-                    </div>
+                    <!-- <div class="footer-header fl-wrap">
+                      <p>SUBSCRIBE</p>
+                    </div> -->
                     <!-- footer-box-->
                     <div class="footer-box fl-wrap">
-                      <p>
+                      <!-- <p>
                         Want to be notified when we launch a new template or an
                         udpate. Just sign up and we'll send you a notification
                         by email.
-                      </p>
-                      <div class="subcribe-form fl-wrap">
+                      </p> -->
+                      <!-- <div class="subcribe-form fl-wrap">
                         <form id="subscribe" class="fl-wrap">
                           <input
                             class="enteremail"
@@ -578,57 +698,26 @@
                             class="subscribe-message"
                           ></label>
                         </form>
+                      </div> -->
+
+                      <div class="container subcribe-form fl-wrap">
+                        <form target="_blank" action="https://formsubmit.co/530b456f0c77d83f6e2c6a395dfcf57c" method="POST" class="fl-wrap">
+                            <div class="form_info">
+                              <div>
+                                <input type="text" name="name" class="form_control entercontactinfo" placeholder="Full Name" required>
+                              </div>
+                              <div class = "contact_email">
+                                <input type="email" name="email" class="form_control entercontactinfo" placeholder="Email Address" required>
+                              </div>
+                            </div>
+                          <div>
+                            <textarea placeholder="Your Message" class="entercontactinfo contact_text" name="message" rows="7" required></textarea>
+                          </div>
+                          <button type="submit" class="subscribe-button">Send</button>
+                        </form>
                       </div>
                       <!-- footer-contacts-->
-                      <div class="footer-contacts fl-wrap">
-                        <ul>
-                          <li>
-                            <i class="fal fa-phone"></i><span>Phone :</span
-                            ><a href="#">+489756412322</a>
-                          </li>
-                          <li>
-                            <i class="fal fa-envelope"></i><span>Email :</span
-                            ><a href="#">alan.scott1119@gmail.com</a>
-                          </li>
-                          <li>
-                            <i class="fal fa-map-marker"></i><span>Address</span
-                            ><a href="#">USA 27TH Brooklyn NY</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <!-- footer end -->
-                      <!-- footer-socilal -->
-                      <div class="footer-socilal fl-wrap">
-                        <ul>
-                          <li>
-                            <a href="#" target="_blank"
-                              ><i class="fab fa-facebook-f"></i
-                            ></a>
-                          </li>
-                          <li>
-                            <a href="#" target="_blank"
-                              ><i class="fab fa-discord"></i
-                            ></a>
-                          </li>
-                          <li>
-                            <a href="https://192.168.91.52/" target="_blank"
-                              ><i class="fab fa-telegram"></i
-                            ></a>
-                          </li>
-                          <li>
-                            <a href="#" target="_blank"
-                              ><i class="fab fa-vk"></i
-                            ></a>
-                          </li>
-                          <li>
-                            <a
-                              href="https://github.com/midas-1119"
-                              target="_blank"
-                              ><i class="fab fa-github"></i
-                            ></a>
-                          </li>
-                        </ul>
-                      </div>
+                      
                       <!-- footer-socilal end -->
                     </div>
                     <!-- footer-box end-->
@@ -642,7 +731,7 @@
               <div class="container">
                 <!-- policy-box-->
                 <div class="policy-box">
-                  <span>&#169; Solonick 2018 / All rights reserved. </span>
+                  <span>&#169; Alan Scott portfolio 2023 / All rights reserved. </span>
                 </div>
                 <!-- policy-box end-->
                 <a href="#" class="to-top color-bg"
@@ -655,8 +744,8 @@
         </section>
         <!-- footer end-->
         <!-- contact-btn -->
-        <a class="contact-btn color-bg custom-scroll-link" href="#contactme"
-          ><i class="fal fa-envelope"></i><span>Get in Touch</span></a
+        <a class="contact-btn color-bg custom-scroll-link" href="mailto:alan.scott1119@gmail.com"
+          ><i class="fal fa-envelope"></i><span>contact me</span></a
         >
         <!-- contact-btn end -->
       </div>
