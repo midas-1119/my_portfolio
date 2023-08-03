@@ -1,389 +1,682 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!--=============== basic  ===============-->
-        <meta charset="UTF-8">
-        <title>Solonick - Creative Responsive Personal Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <meta name="robots" content="index, follow"/>
-        <meta name="keywords" content=""/>
-        <meta name="description" content=""/>
-        <!--=============== css  ===============-->
-        <link type="text/css" rel="stylesheet" href="css/reset.css">
-        <link type="text/css" rel="stylesheet" href="css/plugins.css">
-        <link type="text/css" rel="stylesheet" href="css/style.css">
-        <link type="text/css" rel="stylesheet" href="css/color.css">
-        <!--=============== favicons ===============-->
-        <link rel="shortcut icon" href="images/favicon.ico">
-    </head>
-    <body>
-        <!--loader-->
-        <div class="loader-wrap">
-            <div class="pin"></div>
-        </div>
-        <!--loader end-->
-        <!-- Main  -->
-        <div id="main">
-            <!-- header-->
-            <header class="main-header">
-                <a class="logo-holder" href="index.html">
-                <img src="images/logo.png"  alt="">
-                </a>
-                <!-- nav-button-wrap-->
-                <div class="nav-button but-hol">
-                    <span  class="nos"></span>
-                    <span class="ncs"></span>
-                    <span class="nbs"></span>
-                    <div class="menu-button-text">Menu</div>
-                </div>
-                <!-- nav-button-wrap end-->
-                <div class="header-social">
-                    <ul >
-                        <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fab fa-vk"></i></a></li>
-                    </ul>
-                </div>
-                <!--  showshare -->  
-                <div class="show-share showshare">
-                    <i class="fal fa-retweet"></i>
-                    <span>Share This</span>
-                </div>
-                <!--  showshare end -->
-            </header>
-            <!--  header end -->
-            <!--  navigation bar -->
-            <div class="nav-overlay">
-                <div class="tooltip color-bg">Close Menu</div>
+  <head>
+    <!--=============== basic  ===============-->
+    <meta charset="UTF-8" />
+    <title>Solonick - Creative Responsive Personal Portfolio</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <!--=============== css  ===============-->
+    <link type="text/css" rel="stylesheet" href="css/reset.css" />
+    <link type="text/css" rel="stylesheet" href="css/plugins.css" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/color.css" />
+    <!--=============== favicons ===============-->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+  </head>
+  <body>
+    <!--loader-->
+    <div class="loader-wrap">
+      <div class="pin"></div>
+    </div>
+    <!--loader end-->
+    <!-- Main  -->
+    <div id="main">
+      <!--wrapper-->
+      <div id="wrapper" class="single-page-wrap">
+        <!-- Content-->
+        <div class="content">
+          <div class="single-page-decor"></div>
+          <div class="single-page-fixed-row">
+            <div class="scroll-down-wrap">
+              <div class="mousey">
+                <div class="scroller"></div>
+              </div>
+              <span>Scroll Down</span>
             </div>
-            <div class="nav-holder">
-                <a class="header-logo" href="index.html"><img src="images/logo2.png" alt=""></a> 
-                <div class="nav-title"><span>Menu</span></div>
-                <div class="nav-inner-wrap">
-                    <nav class="nav-inner sound-nav" id="menu">
+          </div>
+          <!-- section-->
+          <section
+            class="parallax-section dark-bg sec-half parallax-sec-half-right"
+            data-scrollax-parent="true"
+          >
+            <div
+              class="bg par-elem"
+              data-bg="images/bg/1.jpg"
+              data-scrollax="properties: { translateY: '30%' }"
+            ></div>
+            <div class="overlay"></div>
+            <div class="pattern-bg"></div>
+            <div class="container">
+              <div class="section-title">
+                <h2><span>Alan Scott</span> <br />Front End developer</h2>
+                <p>
+                  I approach each new project with an eagerness to explore the
+                  latest technologies and techniques, knowing that a willingness
+                  to learn and adapt is key to staying relevant in this
+                  ever-changing industry where the only constant is change
+                  itself.
+                </p>
+                <div class="horizonral-subtitle"><span>portfolio</span></div>
+              </div>
+              <a href="#sec1" class="custom-scroll-link hero-start-link"
+                ><span>Let's Start</span> <i class="fal fa-long-arrow-down"></i
+              ></a>
+            </div>
+          </section>
+          <!-- section end-->
+          <!-- section-->
+          <section data-scrollax-parent="true" id="sec1">
+            <div
+              class="section-subtitle"
+              data-scrollax="properties: { translateY: '150px' }"
+            >
+              Portfolio<span>//</span>
+            </div>
+            <div class="container">
+              <!-- filter -->
+              <div class="filter-holder inline-filter fl-wrap mar-bottom">
+                <div class="filter-button">
+                  <i class="fal fa-filter"></i> <span>Filter : </span>
+                </div>
+                <div class="gallery-filters">
+                  <a
+                    href="#"
+                    class="gallery-filter gallery-filter-active"
+                    data-filter="*"
+                    >All</a
+                  >
+                  <a href="#" class="gallery-filter" data-filter=".React"
+                    >React.js/Next.js</a
+                  >
+                  <a href="#" class="gallery-filter" data-filter=".Vue"
+                    >Vue.js/Nuxt.js</a
+                  >
+                  <a href="#" class="gallery-filter" data-filter=".CMS">CMS</a>
+                  <a href="#" class="gallery-filter" data-filter=".Blockchain"
+                    >Blockchain</a
+                  >
+                </div>
+                <div class="folio-counter">
+                  <div class="num-album"></div>
+                  <div class="all-album"></div>
+                </div>
+              </div>
+              <!-- filter end-->
+              <!-- portfolio start -->
+              <div class="gallery-items spad hde three-column">
+                <!-- gallery-item-->
+                <div class="gallery-item CMS">
+                  <div class="grid-item-holder">
+                    <a
+                      href="images/projects/proteinworks.jpg"
+                      class="fet_pr-carousel-box-media-zoom image-popup"
+                      ><i class="fal fa-search"></i
+                    ></a>
+                    <img src="images/projects/proteinworks.jpg" alt="" />
+                    <div class="box-item hd-box">
+                      <div class="fl-wrap full-height">
+                        <div class="hd-box-wrap">
+                          <h2>
+                            <a href="https://www.theproteinworks.com/"
+                              >protein works</a
+                            >
+                          </h2>
+                          <p><a href="#">CMS </a> <a href="#"> Magento</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- gallery-item end-->
+                <!-- gallery-item-->
+                <div class="gallery-item React Blockchain">
+                  <div class="grid-item-holder">
+                    <a
+                      href="images/projects/exodus.jpg"
+                      class="fet_pr-carousel-box-media-zoom image-popup"
+                      ><i class="fal fa-search"></i
+                    ></a>
+                    <img src="images/projects/exodus.jpg" alt="" />
+                    <div class="box-item hd-box">
+                      <div class="fl-wrap full-height">
+                        <div class="hd-box-wrap">
+                          <h2>
+                            <a href="https://www.exodus.com/"
+                              >Exodus Bitcoin & Crypto Wallet</a
+                            >
+                          </h2>
+                          <p>
+                            <a href="#"> Next.js </a> <a href="#"> Bootstrap</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- gallery-item end-->
+                <!-- gallery-item-->
+                <div class="gallery-item-second gallery-item Vue">
+                  <div class="grid-item-holder">
+                    <a
+                      href="images/projects/bojangles_1.jpg"
+                      class="fet_pr-carousel-box-media-zoom image-popup"
+                      ><i class="fal fa-search"></i
+                    ></a>
+                    <img
+                      src="images/projects/bojangles_1.jpg"
+                      class="galary_second"
+                      alt=""
+                    />
+                    <div class="box-item hd-box">
+                      <div class="fl-wrap full-height">
+                        <div class="hd-box-wrap">
+                          <h2>
+                            <a href="https://www.bojangles.com/">BOJANGLES</a>
+                          </h2>
+                          <p>
+                            <a href="#">Nuxt.js </a> <a href="#"> Node.js</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- gallery-item end-->
+                <!-- gallery-item-->
+                <div class="gallery-item CMS">
+                  <div class="grid-item-holder">
+                    <a
+                      href="images/projects/paymyw.jpg"
+                      class="fet_pr-carousel-box-media-zoom image-popup"
+                      ><i class="fal fa-play"></i
+                    ></a>
+                    <img src="images/projects/paymyw.jpg" alt="" />
+                    <div class="box-item hd-box">
+                      <div class="fl-wrap full-height">
+                        <div class="hd-box-wrap">
+                          <h2>
+                            <a href="https://www.paymywedding.com/"
+                              >Pay My Wedding</a
+                            >
+                          </h2>
+                          <p>
+                            <a href="#">CMS </a> <a href="#"> Squarespace</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- gallery-item end-->
+                <!-- gallery-item-->
+                <div class="gallery-item CMS">
+                  <div class="grid-item-holder">
+                    <a
+                      href="images/projects/thisismagma.jpg"
+                      class="fet_pr-carousel-box-media-zoom image-popup"
+                      ><i class="fal fa-search"></i
+                    ></a>
+                    <img src="images/projects/thisismagma.jpg" alt="" />
+                    <div class="box-item hd-box">
+                      <div class="fl-wrap full-height">
+                        <div class="hd-box-wrap">
+                          <h2>
+                            <a href="https://thisismagma.com/">This is magma</a>
+                          </h2>
+                          <p>
+                            <a href="#">CMS </a> <a href="#"> Wordpress</a>
+                            <a href="#"> Three.js</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- gallery-item end-->
+                <!-- gallery-item-->
+                <div class="gallery-item react CMS">
+                  <div class="grid-item-holder">
+                    <a
+                      href="images/projects/waproperty.jpg"
+                      class="fet_pr-carousel-box-media-zoom image-popup"
+                      ><i class="fal fa-search"></i
+                    ></a>
+                    <img src="images/projects/waproperty.jpg" alt="" />
+                    <div class="box-item hd-box">
+                      <div class="fl-wrap full-height">
+                        <div class="hd-box-wrap">
+                          <h2>
+                            <a href="http://www.waproperty.net/">Property</a>
+                          </h2>
+                          <p>
+                            <a href="#">CMS </a> <a href="#"> Wordpress </a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- gallery-item end-->
+                <!-- gallery-item-->
+                <div class="gallery-item React">
+                  <div class="grid-item-holder">
+                    <a
+                      href="images/projects/sailogy.jpg"
+                      class="fet_pr-carousel-box-media-zoom image-popup"
+                      ><i class="fal fa-search"></i
+                    ></a>
+                    <img src="images/projects/sailogy.jpg" alt="" />
+                    <div class="box-item hd-box">
+                      <div class="fl-wrap full-height">
+                        <div class="hd-box-wrap">
+                          <h2>
+                            <a href="https://www.sailogy.com/"
+                              >Find your perfect sailing holiday</a
+                            >
+                          </h2>
+                          <p>
+                            <a href="#"> Next.js </a> <a href="#"> Bootstrap </a
+                            ><a href="#"> Node.js </a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- gallery-item end-->
+                <!-- gallery-item-->
+                <div class="gallery-item Vue CMS">
+                  <div class="grid-item-holder">
+                    <a
+                      href="images/projects/snaq.jpg"
+                      class="fet_pr-carousel-box-media-zoom image-popup"
+                      ><i class="fal fa-search"></i
+                    ></a>
+                    <img src="images/projects/snaq.jpg" alt="" />
+                    <div class="box-item hd-box">
+                      <div class="fl-wrap full-height">
+                        <div class="hd-box-wrap">
+                          <h2><a href="https://snaq.me/">Snack</a></h2>
+                          <p>
+                            <a href="#"> Nuxt.js </a> <a href="#"> MicroCMS </a
+                            ><a href="#"> Node.js </a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- gallery-item end-->
+                <!-- gallery-item-->
+                <div class="gallery-item CMS">
+                  <div class="grid-item-holder">
+                    <a
+                      href="images/projects/toronto_airport.jpg"
+                      class="fet_pr-carousel-box-media-zoom image-popup"
+                      ><i class="fal fa-search"></i
+                    ></a>
+                    <img src="images/projects/toronto_airport.jpg" alt="" />
+                    <div class="box-item hd-box">
+                      <div class="fl-wrap full-height">
+                        <div class="hd-box-wrap">
+                          <h2>
+                            <a
+                              href="https://torontopearsonairportlimoservice.ca/"
+                              >Toronto person airport, limo service</a
+                            >
+                          </h2>
+                          <p>
+                            <a href="#"> CMS </a> <a href="#"> Wordpress </a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- gallery-item end-->
+                <!-- gallery-item-->
+                <div class="gallery-item React CMS">
+                  <div class="grid-item-holder">
+                    <a
+                      href="images/projects/standun.jpg"
+                      class="fet_pr-carousel-box-media-zoom image-popup"
+                      ><i class="fal fa-search"></i
+                    ></a>
+                    <img src="images/projects/standun.jpg" alt="" />
+                    <div class="box-item hd-box">
+                      <div class="fl-wrap full-height">
+                        <div class="hd-box-wrap">
+                          <h2>
+                            <a href="https://standun.com/"
+                              >Standún - family-owned business</a
+                            >
+                          </h2>
+                          <p>
+                            <a href="#"> React </a> <a href="#"> Magento </a
+                            ><a href="#"> Tailwind CSS </a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- gallery-item end-->
+                <!-- gallery-item-->
+                <div class="gallery-item React">
+                  <div class="grid-item-holder">
+                    <a
+                      href="images/projects/clubmexicana.jpg"
+                      class="fet_pr-carousel-box-media-zoom image-popup"
+                      ><i class="fal fa-search"></i
+                    ></a>
+                    <img src="images/projects/clubmexicana.jpg" alt="" />
+                    <div class="box-item hd-box">
+                      <div class="fl-wrap full-height">
+                        <div class="hd-box-wrap">
+                          <h2>
+                            <a href="https://www.clubmexicana.com/"
+                              >100% VEGAN</a
+                            >
+                          </h2>
+                          <p>
+                            <a href="#"> Next.js </a>
+                            <a href="#"> Tailwind CSS </a>
+                            <a href="#"> Node.js </a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- gallery-item end-->
+                <!-- gallery-item-->
+                <div class="gallery-item React Blockchain">
+                  <div class="grid-item-holder">
+                    <a
+                      href="images/projects/kittyswap.jpg"
+                      class="fet_pr-carousel-box-media-zoom image-popup"
+                      ><i class="fal fa-search"></i
+                    ></a>
+                    <img src="images/projects/kittyswap.jpg" alt="" />
+                    <div class="box-item hd-box">
+                      <div class="fl-wrap full-height">
+                        <div class="hd-box-wrap">
+                          <h2>
+                            <a href="https://kittyswap.org/">KittySwap</a>
+                          </h2>
+                          <p><a href="#"> React </a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- gallery-item end-->
+                <!-- gallery-item-->
+                <div class="gallery-item React">
+                  <div class="grid-item-holder">
+                    <a
+                      href="images/projects/abbypages.jpg"
+                      class="fet_pr-carousel-box-media-zoom image-popup"
+                      ><i class="fal fa-search"></i
+                    ></a>
+                    <img src="images/projects/abbypages.jpg" alt="" />
+                    <div class="box-item hd-box">
+                      <div class="fl-wrap full-height">
+                        <div class="hd-box-wrap">
+                          <h2>
+                            <a href="https://abbypages.com/"
+                              >All Black Business Yellow Pages</a
+                            >
+                          </h2>
+                          <p>
+                            <a href="#"> React </a> <a href="#"> Bootstrap </a>
+                            <a href="#"> Stripe </a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- gallery-item end-->
+                <!-- gallery-item-->
+                <div class="gallery-item React">
+                  <div class="grid-item-holder">
+                    <a
+                      href="images/projects/locoshop_project.jpg"
+                      class="fet_pr-carousel-box-media-zoom image-popup"
+                      ><i class="fal fa-search"></i
+                    ></a>
+                    <img src="images/projects/locoshop_project.jpg" alt="" />
+                    <div class="box-item hd-box">
+                      <div class="fl-wrap full-height">
+                        <div class="hd-box-wrap">
+                          <h2>
+                            <a href="portfolio-single.html"
+                              >Barbershop Reactsite</a
+                            >
+                          </h2>
+                          <p>
+                            <a href="#"> Next.js </a>
+                            <a href="#"> Bootstrap </a>
+                            <a href="#"> Node.js </a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- gallery-item end-->
+                <!-- gallery-item-->
+                <div class="gallery-item React">
+                  <div class="grid-item-holder">
+                    <a
+                      href="images/projects/homely.jpg"
+                      class="fet_pr-carousel-box-media-zoom image-popup"
+                      ><i class="fal fa-search"></i
+                    ></a>
+                    <img src="images/projects/homely.jpg" alt="" />
+                    <div class="box-item hd-box">
+                      <div class="fl-wrap full-height">
+                        <div class="hd-box-wrap">
+                          <h2>
+                            <a href="https://www.homely.com.au/">Real Estate</a>
+                          </h2>
+                          <p>
+                            <a href="#"> Next.js </a> <a href="#"> Node.js </a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- gallery-item end-->
+              </div>
+              <!-- portfolio end -->
+            </div>
+            <div class="sec-lines"></div>
+          </section>
+          <!-- section-->
+          <section class="dark-bg2 small-padding order-wrap">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8">
+                  <h3>Ready To order Your Project ?</h3>
+                </div>
+                <div class="col-md-4">
+                  <a href="#contactme" class="btn flat-btn color-btn"
+                    >Get In Touch</a
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- section end-->
+        </div>
+        <!-- Content end -->
+        <!-- footer-->
+        <div class="height-emulator fl-wrap"></div>
+        <section id="contactme">
+          <footer class="main-footer fixed-footer">
+            <!--footer-inner-->
+            <div class="footer-inner fl-wrap">
+              <div class="container">
+                <div class="partcile-dec" data-parcount="90"></div>
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="footer-title fl-wrap">
+                      <span>Contact me</span>
+                    </div>
+                  </div>
+                  <div class="col-md-5">
+                    <div class="footer-header fl-wrap">
+                      <span>01.</span>Last Twitts
+                    </div>
+                    <div class="footer-box fl-wrap">
+                      <div
+                        class="twitter-swiper-container fl-wrap"
+                        id="twitts-container"
+                      ></div>
+                      <a href="#" class="btn float-btn trsp-btn">Follow</a>
+                    </div>
+                  </div>
+                  <div class="col-md-5">
+                    <div class="footer-header fl-wrap">
+                      <span>02.</span> Subscribe / Contacts
+                    </div>
+                    <!-- footer-box-->
+                    <div class="footer-box fl-wrap">
+                      <p>
+                        Want to be notified when we launch a new template or an
+                        udpate. Just sign up and we'll send you a notification
+                        by email.
+                      </p>
+                      <div class="subcribe-form fl-wrap">
+                        <form id="subscribe" class="fl-wrap">
+                          <input
+                            class="enteremail"
+                            name="email"
+                            id="subscribe-email"
+                            placeholder="email"
+                            spellcheck="false"
+                            type="text"
+                          />
+                          <button
+                            type="submit"
+                            id="subscribe-button"
+                            class="subscribe-button"
+                          >
+                            <i class="fal fa-paper-plane"></i> Send
+                          </button>
+                          <label
+                            for="subscribe-email"
+                            class="subscribe-message"
+                          ></label>
+                        </form>
+                      </div>
+                      <!-- footer-contacts-->
+                      <div class="footer-contacts fl-wrap">
                         <ul>
-                            <li>
-                                <a href="#">Home</a>
-                                <!--level 2 -->
-                                <ul>
-                                    <li><a href="index.html">Half Slider</a></li>
-                                    <li><a href="index2.html">Half Image</a></li>
-                                    <li><a href="index3.html">Impulse Image</a></li>
-                                    <li><a href="index4.html">Fullscreen  Image</a></li>
-                                    <li><a href="index5.html">Fullscreen  Slider</a></li>
-                                    <li><a href="index6.html">Slideshow</a></li>
-                                    <li><a href="index7.html">Fullscreen Carousel</a></li>
-                                    <li><a href="index8.html">Video</a></li>
-                                </ul>
-                                <!--level 2 end -->
-                            </li>
-                            <li>
-                                <a href="#" class="act-link">Portfolio</a>
-                                <!--level 2 -->
-                                <ul>
-                                    <li><a href="portfolio.html">Masonry</a></li>
-                                    <li><a href="portfolio2.html">Masonry 2</a></li>
-                                    <li><a href="portfolio3.html" class="act-link">Boxed</a></li>
-                                    <li><a href="portfolio4.html">Boxed 2 </a></li>
-                                    <li><a href="portfolio5.html">Parallax</a></li>
-                                    <li><a href="portfolio6.html">Parallax dark</a></li>
-                                    <li><a href="portfolio8.html">List</a></li>
-                                    <li>
-                                        <a href="#">Single</a>
-                                        <!--level 3 -->
-                                        <ul>
-                                            <li><a href="portfolio-single.html">Carousel</a></li>
-                                            <li><a href="portfolio-single2.html">Carousel 2</a></li>
-                                            <li><a href="portfolio-single3.html">Gallery</a></li>
-                                            <li><a href="portfolio-single4.html">Gallery 2</a></li>
-                                            <li><a href="portfolio-single5.html">Slider</a></li>
-                                            <li><a href="portfolio-single6.html">Showcase</a></li>
-                                            <li><a href="portfolio-single7.html">Fullscreen  Slider</a></li>
-                                            <li><a href="portfolio-single8.html">Video</a></li>
-                                        </ul>
-                                        <!--level 3 end -->
-                                    </li>
-                                </ul>
-                                <!--level 2 end -->
-                            </li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="contacts.html">Contacts</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li>
-                                <a href="#">Pages</a>
-                                <!--level 2 -->
-                                <ul>
-                                    <li><a href="services2.html">Services 2</a></li>
-                                    <li><a href="blog-single.html">Blog single</a></li>
-                                    <li><a href="team.html">Team</a></li>
-                                    <li><a href="team-single.html">Team Single</a></li>
-                                    <li><a href="coming-soon.html">Coming soon</a></li>
-                                    <li><a href="404.html">404</a></li>
-                                </ul>
-                                <!--level 2 end -->
-                            </li>
+                          <li>
+                            <i class="fal fa-phone"></i><span>Phone :</span
+                            ><a href="#">+489756412322</a>
+                          </li>
+                          <li>
+                            <i class="fal fa-envelope"></i><span>Email :</span
+                            ><a href="#">alan.scott1119@gmail.com</a>
+                          </li>
+                          <li>
+                            <i class="fal fa-map-marker"></i><span>Address</span
+                            ><a href="#">USA 27TH Brooklyn NY</a>
+                          </li>
                         </ul>
-                    </nav>
-                </div>
-            </div>
-            <!--  navigation bar end -->
-            <!--wrapper-->
-            <div id="wrapper" class="single-page-wrap">
-                <!-- Content-->
-                <div class="content">
-                    <div class="single-page-decor"></div>
-                    <div class="single-page-fixed-row">
-                        <div class="scroll-down-wrap">
-                            <div class="mousey">
-                                <div class="scroller"></div>
-                            </div>
-                            <span>Scroll Down</span>
-                        </div>
+                      </div>
+                      <!-- footer end -->
+                      <!-- footer-socilal -->
+                      <div class="footer-socilal fl-wrap">
+                        <ul>
+                          <li>
+                            <a href="#" target="_blank"
+                              ><i class="fab fa-facebook-f"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="#" target="_blank"
+                              ><i class="fab fa-discord"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="https://192.168.91.52/" target="_blank"
+                              ><i class="fab fa-telegram"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="#" target="_blank"
+                              ><i class="fab fa-vk"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a
+                              href="https://github.com/midas-1119"
+                              target="_blank"
+                              ><i class="fab fa-github"></i
+                            ></a>
+                          </li>
+                        </ul>
+                      </div>
+                      <!-- footer-socilal end -->
                     </div>
-                    <!-- section-->
-                    <section class="parallax-section dark-bg sec-half parallax-sec-half-right" data-scrollax-parent="true">
-                        <div class="bg par-elem"  data-bg="images/bg/1.jpg" data-scrollax="properties: { translateY: '30%' }"></div>
-                        <div class="overlay"></div>
-                        <div class="pattern-bg"></div>
-                        <div class="container">
-                            <div class="section-title">
-                                <h2>Our <span>realized</span>  <br> and future projects</h2>
-                                <p> If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
-                                <div class="horizonral-subtitle"><span>PROJECTS</span></div>
-                            </div>
-                            <a href="#sec1" class="custom-scroll-link hero-start-link"><span>Let's Start</span> <i class="fal fa-long-arrow-down"></i></a>
-                        </div>
-                    </section>
-                    <!-- section end-->
-					<!-- section-->
-                    <section data-scrollax-parent="true" id="sec1">
-                        <div class="section-subtitle"  data-scrollax="properties: { translateY: '150px' }" >Portfolio<span>//</span></div>
-                        <div class="container">
-                            <!-- filter -->
-                            <div class="filter-holder inline-filter fl-wrap  mar-bottom">
-                                <div class="filter-button"><i class="fal fa-filter"></i> <span>Filter : </span></div>
-                                <div class="gallery-filters">
-                                    <a href="#" class="gallery-filter  gallery-filter-active" data-filter="*">All</a>
-                                    <a href="#" class="gallery-filter" data-filter=".web">Web Design</a>
-                                    <a href="#" class="gallery-filter" data-filter=".photography">Photo</a>
-                                    <a href="#" class="gallery-filter" data-filter=".branding">Branding</a>
-                                    <a href="#" class="gallery-filter" data-filter=".uides">Ui Design</a>
-                                </div>
-                                <div class="folio-counter">
-                                    <div class="num-album"></div>
-                                    <div class="all-album"></div>
-                                </div>
-                            </div>
-                            <!-- filter end-->
-                            <!-- portfolio start -->
-                            <div class="gallery-items spad  hde three-column">
-                                <!-- gallery-item-->
-                                <div class="gallery-item web branding">
-                                    <div class="grid-item-holder">
-                                        <a href="images/folio/1.jpg" class="fet_pr-carousel-box-media-zoom   image-popup"><i class="fal fa-search"></i></a>
-                                        <img  src="images/folio/1.jpg"    alt="">
-                                        <div class="box-item hd-box">
-                                            <div class=" fl-wrap full-height">
-                                                <div class="hd-box-wrap">
-                                                    <h2><a href="portfolio-single.html">Kent Brant Concept</a></h2>
-                                                    <p><a href="#">Design  </a> <a href="#"> Branding</a></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- gallery-item end-->
-                                <!-- gallery-item-->
-                                <div class="gallery-item photography">
-                                    <div class="grid-item-holder">
-                                        <a href="images/folio/1.jpg" class="fet_pr-carousel-box-media-zoom   image-popup"><i class="fal fa-search"></i></a>
-                                        <img  src="images/folio/1.jpg"    alt="">
-                                        <div class="box-item hd-box">
-                                            <div class=" fl-wrap full-height">
-                                                <div class="hd-box-wrap">
-                                                    <h2><a href="portfolio-single.html">Old Cars on Street</a></h2>
-                                                    <p><a href="#"> Photography  </a> <a href="#"> Development</a></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- gallery-item end-->
-                                <!-- gallery-item-->
-                                <div class="gallery-item branding gallery-item-second">
-                                    <div class="grid-item-holder">
-                                        <a href="images/folio/1.jpg" class="fet_pr-carousel-box-media-zoom   image-popup"><i class="fal fa-search"></i></a>
-                                        <img  src="images/folio/1.jpg"    alt="">
-                                        <div class="box-item hd-box">
-                                            <div class=" fl-wrap full-height">
-                                                <div class="hd-box-wrap">
-                                                    <h2><a href="portfolio-single.html">Mobile ui Interface</a></h2>
-                                                    <p><a href="#">Development </a>  <a href="#"> Branding</a></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- gallery-item end-->
-                                <!-- gallery-item-->
-                                <div class="gallery-item web">
-                                    <div class="grid-item-holder">
-                                        <a href="https://vimeo.com/115735583" class="fet_pr-carousel-box-media-zoom   image-popup"><i class="fal fa-play"></i></a>
-                                        <img  src="images/folio/1.jpg"    alt="">
-                                        <div class="box-item hd-box">
-                                            <div class=" fl-wrap full-height">
-                                                <div class="hd-box-wrap">
-                                                    <h2><a href="portfolio-single.html">Video Project</a></h2>
-                                                    <p><a href="#">Video  </a> <a href="#"> Branding</a></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- gallery-item end-->
-                                <!-- gallery-item-->
-                                <div class="gallery-item web branding ">
-                                    <div class="grid-item-holder">
-                                        <a href="images/folio/1.jpg" class="fet_pr-carousel-box-media-zoom   image-popup"><i class="fal fa-search"></i></a>
-                                        <img  src="images/folio/1.jpg"    alt="">
-                                        <div class="box-item hd-box">
-                                            <div class=" fl-wrap full-height">
-                                                <div class="hd-box-wrap">
-                                                    <h2><a href="portfolio-single.html">Barbershop Website</a></h2>
-                                                    <p><a href="#">Photography  </a> <a href="#"> Web </a></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- gallery-item end-->
-                                <!-- gallery-item-->
-                                <div class="gallery-item uides ">
-                                    <div class="grid-item-holder">
-                                        <a href="images/folio/1.jpg" class="fet_pr-carousel-box-media-zoom   image-popup"><i class="fal fa-search"></i></a>
-                                        <img  src="images/folio/1.jpg"    alt="">
-                                        <div class="box-item hd-box">
-                                            <div class=" fl-wrap full-height">
-                                                <div class="hd-box-wrap">
-                                                    <h2><a href="portfolio-single.html">Man in Old Town</a></h2>
-                                                    <p><a href="#">Photography  </a> <a href="#"> Ui</a></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- gallery-item end-->
-                            </div>
-                            <!-- portfolio end -->
-                        </div>
-                        <div class="sec-lines"></div>
-                    </section>
-                    <!-- section-->
-                    <section class="dark-bg2 small-padding order-wrap">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-8">
-                                    <h3>Ready To order Your Project ?</h3>
-                                </div>
-                                <div class="col-md-4"><a href="contscts.html" class="btn flat-btn color-btn">Get In Touch</a> </div>
-                            </div>
-                        </div>
-                    </section>
-                    <!-- section end-->
+                    <!-- footer-box end-->
+                  </div>
                 </div>
-                <!-- Content end -->
-                <!-- footer-->
-                <div class="height-emulator fl-wrap"></div>
-                <footer class="main-footer fixed-footer">
-                    <!--footer-inner--> 
-                    <div class="footer-inner fl-wrap">
-                        <div class="container">
-                            <div class="partcile-dec" data-parcount="90"></div>
-                            <div class="row">
-                                <div class="col-md-2">
-                                    <div class="footer-title fl-wrap">
-                                        <span>Solonick</span>
-                                    </div>
-                                </div>
-                                <div class="col-md-5">
-                                    <div class="footer-header fl-wrap"><span>01.</span>Last Twitts</div>
-                                    <div class="footer-box fl-wrap">
-                                        <div class="twitter-swiper-container fl-wrap" id="twitts-container"></div>
-                                        <a href="#" class="btn float-btn trsp-btn">Follow</a>
-                                    </div>
-                                </div>
-                                <div class="col-md-5">
-                                    <div class="footer-header fl-wrap"><span>02.</span> Subscribe / Contacts</div>
-                                    <!-- footer-box--> 
-                                    <div class="footer-box fl-wrap">
-                                        <p>Want to be notified when we launch a new template or an udpate. Just sign up and we'll send you a notification by email.</p>
-                                        <div class="subcribe-form fl-wrap">
-                                            <form id="subscribe" class="fl-wrap">
-                                                <input class="enteremail" name="email" id="subscribe-email" placeholder="email" spellcheck="false" type="text">
-                                                <button type="submit" id="subscribe-button" class="subscribe-button"><i class="fal fa-paper-plane"></i> Send </button>
-                                                <label for="subscribe-email" class="subscribe-message"></label>
-                                            </form>
-                                        </div>
-                                        <!-- footer-contacts-->                    
-                                        <div class="footer-contacts fl-wrap">
-                                            <ul>
-                                                <li><i class="fal fa-phone"></i><span>Phone :</span><a href="#">+489756412322</a></li>
-                                                <li><i class="fal fa-envelope"></i><span>Email :</span><a href="#">yourmail@domain.com</a></li>
-                                                <li><i class="fal fa-map-marker"></i><span>Address</span><a href="#">USA 27TH Brooklyn NY</a></li>
-                                            </ul>
-                                        </div>
-                                        <!-- footer end -->                                        
-                                        <!-- footer-socilal -->            
-                                        <div class="footer-socilal fl-wrap">
-                                            <ul >
-                                                <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                                                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#" target="_blank"><i class="fab fa-vk"></i></a></li>
-                                            </ul>
-                                        </div>
-                                        <!-- footer-socilal end -->       
-                                    </div>
-                                    <!-- footer-box end--> 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--footer-inne endr--> 
-                    <!--subfooter--> 
-                    <div class="subfooter fl-wrap">
-                        <div class="container">
-                            <!-- policy-box-->
-                            <div class="policy-box">
-                                <span>&#169; Solonick 2018  /  All rights reserved. </span>
-                            </div>
-                            <!-- policy-box end-->
-                            <a href="#" class="to-top color-bg"><i class="fal fa-angle-up"></i><span></span></a>
-                        </div>
-                    </div>
-                    <!--subfooter end--> 
-                </footer>
-                <!-- footer end-->
-                <!-- contact-btn -->	
-                <a class="contact-btn color-bg" href="contacts.html"><i class="fal fa-envelope"></i><span>Get in Touch</span></a>  
-                <!-- contact-btn end -->	      
+              </div>
             </div>
-            <!--   content end -->
-            <!-- share-wrapper -->                       
-            <div class="share-wrapper isShare">
-                <div class="share-title"><span>Share</span></div>
-                <div class="close-share soa"><span>Close</span><i class="fal fa-times"></i></div>
-                <div class="share-inner soa">
-                    <div class="share-container"></div>
+            <!--footer-inne endr-->
+            <!--subfooter-->
+            <div class="subfooter fl-wrap">
+              <div class="container">
+                <!-- policy-box-->
+                <div class="policy-box">
+                  <span>&#169; Solonick 2018 / All rights reserved. </span>
                 </div>
+                <!-- policy-box end-->
+                <a href="#" class="to-top color-bg"
+                  ><i class="fal fa-angle-up"></i><span></span
+                ></a>
+              </div>
             </div>
-            <!-- share-wrapper end -->	
+            <!--subfooter end-->
+          </footer>
+        </section>
+        <!-- footer end-->
+        <!-- contact-btn -->
+        <a class="contact-btn color-bg custom-scroll-link" href="#contactme"
+          ><i class="fal fa-envelope"></i><span>Get in Touch</span></a
+        >
+        <!-- contact-btn end -->
+      </div>
+      <!--   content end -->
+      <!-- share-wrapper -->
+      <div class="share-wrapper isShare">
+        <div class="share-title"><span>Share</span></div>
+        <div class="close-share soa">
+          <span>Close</span><i class="fal fa-times"></i>
         </div>
-        <!-- Main end -->
-        <!--=============== scripts  ===============-->
-        <script type="text/javascript" src="js/jquery.min.js"></script>
-        <script type="text/javascript" src="js/plugins.js"></script>
-        <script type="text/javascript" src="js/scripts.js"></script>
-    </body>
+        <div class="share-inner soa">
+          <div class="share-container"></div>
+        </div>
+      </div>
+      <!-- share-wrapper end -->
+    </div>
+    <!-- Main end -->
+    <!--=============== scripts  ===============-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </body>
 </html>
