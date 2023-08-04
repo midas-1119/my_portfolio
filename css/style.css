@@ -163,7 +163,7 @@ blockquote p {
 .fl-wrap {
 	float: left;
 	width: 100%;
-	position: relative;
+	/* position: relative; */
 }
 .hero-section {
 	padding: 250px 0 450px;
@@ -730,9 +730,9 @@ nav.nav-inner {
 	overflow: hidden;
 	-webkit-transform: translate3d(0, 0, 0);
 }
-.height-emulator {
+/* .height-emulator {
 	z-index: 1;
-}
+} */
 .footer-inner {
 	z-index: 3;
 	padding: 110px 0 70px;
@@ -904,7 +904,7 @@ nav.nav-inner {
 	margin-top: 66%;
 	text-transform: uppercase;
 	font-weight: 900;
-	font-size: 64px;
+	font-size: 56px;
 	letter-spacing: 6px;
 	-webkit-transform: rotate(-90deg);
 	-moz-transform: rotate(-90deg);
@@ -6909,4 +6909,37 @@ initially starting from 0*/
 
 .touch_text{
 	align-items: start;
+}
+
+
+.topbar{
+	margin-left: 150px;
+}
+
+.topbar_style{
+	list-style-type: none;
+	margin-left: 0px;
+	padding: 0;
+	overflow: hidden;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	/* width: 500px */
+}
+
+.topbar_style a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 30px 30px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.topbar_style a:hover{
+	color: #fac921;
+}
+
+.topbar_item{
+	font-size: 18px;
 }

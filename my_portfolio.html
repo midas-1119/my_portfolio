@@ -39,6 +39,22 @@
                     </div>
                     <span>Scroll Down</span>
                 </div>
+                <div class="topbar">
+                  <ul class="topbar_style">
+                    <li class="topbar_item">
+                      <a href = "#home" class="nav_home_effect custom-scroll-link">Home</a>
+                    </li>
+                    <li class="topbar_item">
+                      <a href = "#projects" class="nav_projects_effect custom-scroll-link">Projects</a>
+                    </li>
+                    <li class="topbar_item">
+                      <a href = "#skillset" class="nav_skillset_effect custom-scroll-link">Skill Set</a>
+                    </li>
+                    <li class="topbar_item">
+                      <a href = "#contactme" class="nav_contactme_effect custom-scroll-link">Contact Me</a>
+                    </li>
+                  </ul>
+                </div>
             </div>
           <!-- section-->
           <section
@@ -64,8 +80,8 @@
                 </p>
                 <div class="horizonral-subtitle"><span>portfolio</span></div>
               </div>
-              <a href="#projects" class="custom-scroll-link hero-start-link"
-                ><span>Let's Start</span> <i class="fal fa-long-arrow-down"></i
+              <a href="#projects" class="custom-scroll-link hero-start-link act-link"
+                ><span class="lets-start">Let's Start</span> <i class="fal fa-long-arrow-down"></i
               ></a>
             </div>
           </section>
@@ -604,8 +620,8 @@
         </div>
         <!-- Content end -->
         <!-- footer-->
-        <div class="height-emulator fl-wrap"></div>
-        <section id="contactme">
+        <div class="height-emulator fl-wrap" data-scrollax-parent="true" id = 'contactme'></div>
+        <!-- <section id="contactme"> -->
           <footer class="main-footer fixed-footer">
             <!--footer-inner-->
             <div class="footer-inner fl-wrap">
@@ -741,7 +757,7 @@
             </div>
             <!--subfooter end-->
           </footer>
-        </section>
+        <!-- </section> -->
         <!-- footer end-->
         <!-- contact-btn -->
         <a class="contact-btn color-bg custom-scroll-link" href="mailto:alan.scott1119@gmail.com"
@@ -767,5 +783,22 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/plugins.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript">
+      $(".lets-start").mouseover(() => {
+        $(".lets-start").shuffleLetters({});
+      });
+      // $(".nav_home_effect").mouseover(() => {
+      //   $(".nav_home_effect").shuffleLetters({});
+      // });
+      // $(".nav_projects_effect").mouseover(() => {
+      //   $(".nav_projects_effect").shuffleLetters({});
+      // });
+      // $(".nav_skillset_effect").mouseover(() => {
+      //   $(".nav_skillset_effect").shuffleLetters({});
+      // });
+      // $(".nav_contactme_effect").mouseover(() => {
+      //   $(".nav_contactme_effect").shuffleLetters({});
+      // });
+    </script>
   </body>
 </html>
