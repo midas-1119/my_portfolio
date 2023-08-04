@@ -83,7 +83,7 @@ body {
 	text-align: left;
 }
 .pin:after {
-	content: "Solonick : ";
+	content: "Portfolio : ";
 	position: absolute;
 	left: -100%;
 	color: rgba(255, 255, 255, 0.51);
